@@ -144,8 +144,8 @@ class _DataRouteState extends State<AutonomousDataRoute> {
                         alignment: Alignment.bottomRight,
                         child: Container(
                           width: 400.0,
-                          padding: const EdgeInsets.only(top: 20.0, right: 0.0),
-                          margin: EdgeInsets.only(left: 330.0, top: 95.0),
+                          padding: const EdgeInsets.only(top: 0.0, right: 0.0),
+                          margin: EdgeInsets.only(left: 90.0, top: 55.0),
                           child: Text(
                             "Driver Station: ${SettingValues.selectedDriverStation.text}, Match #${PrematchValues.matchNumber.text}, Team #${PrematchValues.teamNumber.text}",
                             textAlign: TextAlign.left,

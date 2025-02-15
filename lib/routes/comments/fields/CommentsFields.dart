@@ -51,10 +51,12 @@ class _CommentsFields extends State<CommentsFields> {
                               TextStyle(fontSize: 16.0, color: Colors.white)),
                     ),
                   )),
+              const SizedBox(width: 10.0),
               Align(
                   alignment: Alignment.bottomRight,
                   child: Container(
                     padding: const EdgeInsets.all(3.0),
+                    margin: const EdgeInsets.only(right: 5.0),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         minimumSize: const Size(150.0, 37.0),

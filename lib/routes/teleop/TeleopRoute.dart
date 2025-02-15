@@ -94,7 +94,7 @@ class _TeleopRouteState extends State<TeleopRoute> {
             alignment: Alignment.bottomRight,
             child: Container(
               width: 400.0,
-              padding: const EdgeInsets.only(top: 55.0, left: 90.0),
+              padding: const EdgeInsets.only(left: 25.0),
               child: Text(
                 "Driver Station: ${SettingValues.selectedDriverStation.text}, Match #${PrematchValues.matchNumber.text}, Team #${PrematchValues.teamNumber.text}",
                 textAlign: TextAlign.left,

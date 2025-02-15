@@ -63,7 +63,7 @@ class _PrematchLabelsState extends State<PrematchLabels> {
                     fontSize: 15.0),
               ),
             )),
-        const SizedBox(width: 598.0),
+        const SizedBox(width: 270.0),
         Container(
           padding: const EdgeInsets.all(5.0),
           child: ElevatedButton(
