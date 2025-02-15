@@ -103,7 +103,7 @@ class _CommentsFields extends State<CommentsFields> {
           },
           textAlign: TextAlign.left,
           hintText:
-              "Speed, speaker reliability, amping, etc. Keep this 1-2 sentences and brief",
+              "Speed, coral reliability, etc. Keep this 1-2 sentences and brief",
           controller: CommentValues.teleopComments,
           margin: const EdgeInsets.only(left: 18, top: 10),
           width: 880,
@@ -121,7 +121,7 @@ class _CommentsFields extends State<CommentsFields> {
           },
           textAlign: TextAlign.left,
           hintText:
-              "Climb, trap, park, harmony, etc. Keep this 1-2 sentences and brief",
+              "Climb, park, any troubles, etc. Keep this 1-2 sentences and brief",
           controller: CommentValues.endgameComments,
           margin: const EdgeInsets.only(left: 18, top: 10, bottom: 20.0),
           width: 880,
