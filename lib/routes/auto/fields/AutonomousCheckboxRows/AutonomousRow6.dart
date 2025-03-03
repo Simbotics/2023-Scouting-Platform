@@ -85,6 +85,19 @@ class _AutonomousRow6State extends State<AutonomousRow6> {
               checkColor: Colors.white,
               labelColor: Colors.white,
               margin: const EdgeInsets.only(right: 0.0)),
+              Align(
+              alignment: Alignment.centerLeft,
+              child: Container(
+                width: 170.0,
+                child: const Text(
+                  "L2",
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12.0),
+                ),
+              )),
         ],
       ),
     );
