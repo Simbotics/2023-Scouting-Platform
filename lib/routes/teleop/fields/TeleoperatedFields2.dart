@@ -41,18 +41,18 @@ class _TeleoperatedFields2State extends State<TeleoperatedFields2> {
       children: [
         // coral near l2
         CounterNumberField(
-            controller: TeleoperatedValues.coralNearL2,
+            controller: TeleoperatedValues.coralLeftL2,
             onTapDecrement: () =>
-                decrementNumber(TeleoperatedValues.coralNearL2),
+                decrementNumber(TeleoperatedValues.coralLeftL2),
             onTapIncrement: () =>
-                incrementNumber(TeleoperatedValues.coralNearL2)),
+                incrementNumber(TeleoperatedValues.coralLeftL2)),
         // coral far l2
         CounterNumberField(
-            controller: TeleoperatedValues.coralFarL2,
+            controller: TeleoperatedValues.coralRightL2,
             onTapDecrement: () =>
-                decrementNumber(TeleoperatedValues.coralFarL2),
+                decrementNumber(TeleoperatedValues.coralRightL2),
             onTapIncrement: () =>
-                incrementNumber(TeleoperatedValues.coralFarL2)),
+                incrementNumber(TeleoperatedValues.coralRightL2)),
         //algae removed
         CounterNumberField(
             controller: TeleoperatedValues.algaeRemoved,

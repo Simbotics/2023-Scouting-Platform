@@ -112,14 +112,14 @@ class QrcodeHelper {
   /// Computes all teleoperated values and returns them as a single string separated by a caret
   static String computeTeleopValues() {
     return computeValues([
-      parseInt(TeleoperatedValues.coralNearL1.text), // index 54
-      parseInt(TeleoperatedValues.coralFarL1.text), // index 55
-      parseInt(TeleoperatedValues.coralNearL2.text), // index 56
-      parseInt(TeleoperatedValues.coralFarL2.text), // index 57
-      parseInt(TeleoperatedValues.coralNearL3.text), // index 58
-      parseInt(TeleoperatedValues.coralFarL3.text), // index 59
-      parseInt(TeleoperatedValues.coralNearL4.text), // index 60
-      parseInt(TeleoperatedValues.coralFarL4.text), // index 61
+      parseInt(TeleoperatedValues.coralLeftL1.text), // index 54
+      parseInt(TeleoperatedValues.coralRightL1.text), // index 55
+      parseInt(TeleoperatedValues.coralLeftL2.text), // index 56
+      parseInt(TeleoperatedValues.coralRightL2.text), // index 57
+      parseInt(TeleoperatedValues.coralLeftL3.text), // index 58
+      parseInt(TeleoperatedValues.coralRightL3.text), // index 59
+      parseInt(TeleoperatedValues.coralLeftL4.text), // index 60
+      parseInt(TeleoperatedValues.coralRightL4.text), // index 61
       parseInt(TeleoperatedValues.coralMissed.text), // index: 62
       parseInt(TeleoperatedValues.algaeRemoved.text), // index: 63
       parseInt(TeleoperatedValues.algaeProcessor.text), // index: 64

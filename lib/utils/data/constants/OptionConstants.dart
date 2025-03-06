@@ -3,7 +3,7 @@
 class OptionConstants {
   static final yesNoOptions = ["Yes", "No"];
 
-  static final startPositions = ["Left", "Center", "Right"];
+  static final startPositions = ["Top", "Center", "Bottom"];
 
   static final endgameOptions = ["No", "Shallow", "Deep", "Park"];
 

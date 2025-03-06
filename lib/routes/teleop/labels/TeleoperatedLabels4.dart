@@ -22,7 +22,7 @@ class _TeleoperatedLabels4State extends State<TeleoperatedLabels4> {
               width: 170.0,
               padding: const EdgeInsets.only(left: 20.0, top: 20.0),
               child: const Text(
-                "L4 Coral Near",
+                "L4 Coral Left",
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: Colors.white,
@@ -38,7 +38,7 @@ class _TeleoperatedLabels4State extends State<TeleoperatedLabels4> {
               padding:
                   const EdgeInsets.only(left: 20.0, top: 20.0, right: 30.0),
               child: const Text(
-                "L4 Coral Far",
+                "L4 Coral Right",
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: Colors.white,

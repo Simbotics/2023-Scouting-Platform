@@ -42,20 +42,20 @@ class _TeleoperatedFields4State extends State<TeleoperatedFields4> {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        //coral l4 near
+        //coral l4 Left
         CounterNumberField(
-            controller: TeleoperatedValues.coralNearL4,
+            controller: TeleoperatedValues.coralLeftL4,
             onTapDecrement: () =>
-                decrementNumber(TeleoperatedValues.coralNearL4),
+                decrementNumber(TeleoperatedValues.coralLeftL4),
             onTapIncrement: () =>
-                incrementNumber(TeleoperatedValues.coralNearL4)),
+                incrementNumber(TeleoperatedValues.coralLeftL4)),
         // coral far l4
         CounterNumberField(
-            controller: TeleoperatedValues.coralFarL4,
+            controller: TeleoperatedValues.coralRightL4,
             onTapDecrement: () =>
-                decrementNumber(TeleoperatedValues.coralFarL4),
+                decrementNumber(TeleoperatedValues.coralRightL4),
             onTapIncrement: () =>
-                incrementNumber(TeleoperatedValues.coralFarL4)),
+                incrementNumber(TeleoperatedValues.coralRightL4)),
         //algae barge
         CounterNumberField(
             controller: TeleoperatedValues.algaeBarge,
